@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <meta name='viewport'
+    content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, target-densityDpi=device-dpi, minimal-ui' />
+  <title>Matthis Lesur</title>
+</head>
+
+<body class="light-theme">
+  <div class="experience">
+    <canvas class="experience-canvas"></canvas>
+  </div>
+
+  <!-- Preload -->
+  <div class="loader">
+    <div id="loader-wrapper">
+      <div id="box"></div>
+      <div id="hill"></div>
+    </div>
+  </div>
+
+  <div class="page">
+
+    <div class="toggle-bar">
+      <div class="sun-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+          <path fill="currentColor"
+            d="M12 15q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Zm0 2q-2.075 0-3.537-1.463Q7 14.075 7 12t1.463-3.538Q9.925 7 12 7t3.538 1.462Q17 9.925 17 12q0 2.075-1.462 3.537Q14.075 17 12 17ZM2 13q-.425 0-.712-.288Q1 12.425 1 12t.288-.713Q1.575 11 2 11h2q.425 0 .713.287Q5 11.575 5 12t-.287.712Q4.425 13 4 13Zm18 0q-.425 0-.712-.288Q19 12.425 19 12t.288-.713Q19.575 11 20 11h2q.425 0 .712.287.288.288.288.713t-.288.712Q22.425 13 22 13Zm-8-8q-.425 0-.712-.288Q11 4.425 11 4V2q0-.425.288-.713Q11.575 1 12 1t.713.287Q13 1.575 13 2v2q0 .425-.287.712Q12.425 5 12 5Zm0 18q-.425 0-.712-.288Q11 22.425 11 22v-2q0-.425.288-.712Q11.575 19 12 19t.713.288Q13 19.575 13 20v2q0 .425-.287.712Q12.425 23 12 23ZM5.65 7.05 4.575 6q-.3-.275-.288-.7.013-.425.288-.725.3-.3.725-.3t.7.3L7.05 5.65q.275.3.275.7 0 .4-.275.7-.275.3-.687.287-.413-.012-.713-.287ZM18 19.425l-1.05-1.075q-.275-.3-.275-.712 0-.413.275-.688.275-.3.688-.287.412.012.712.287L19.425 18q.3.275.288.7-.013.425-.288.725-.3.3-.725.3t-.7-.3ZM16.95 7.05q-.3-.275-.287-.688.012-.412.287-.712L18 4.575q.275-.3.7-.288.425.013.725.288.3.3.3.725t-.3.7L18.35 7.05q-.3.275-.7.275-.4 0-.7-.275ZM4.575 19.425q-.3-.3-.3-.725t.3-.7l1.075-1.05q.3-.275.713-.275.412 0 .687.275.3.275.288.688-.013.412-.288.712L6 19.425q-.275.3-.7.287-.425-.012-.725-.287ZM12 12Z" />
+        </svg>
+      </div>
+      <button class="toggle-button">
+        <div class="toggle-circle"></div>
+      </button>
+      <div class="moon-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24">
+          <path fill="currentColor"
+            d="M12 21q-3.75 0-6.375-2.625T3 12q0-3.75 2.625-6.375T12 3q.35 0 .688.025.337.025.662.075-1.025.725-1.637 1.887Q11.1 6.15 11.1 7.5q0 2.25 1.575 3.825Q14.25 12.9 16.5 12.9q1.375 0 2.525-.613 1.15-.612 1.875-1.637.05.325.075.662Q21 11.65 21 12q0 3.75-2.625 6.375T12 21Zm0-2q2.2 0 3.95-1.212 1.75-1.213 2.55-3.163-.5.125-1 .2-.5.075-1 .075-3.075 0-5.238-2.162Q9.1 10.575 9.1 7.5q0-.5.075-1t.2-1q-1.95.8-3.162 2.55Q5 9.8 5 12q0 2.9 2.05 4.95Q9.1 19 12 19Zm-.25-6.75Z" />
+        </svg>
+      </div>
+    </div>
+
+    <div class="page-wrapper">
+
+      <section class="hero">
+        <div class="hero-wrapper">
+
+          <div class="arrow-svg-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48">
+              <path fill="currentColor" d="M480 711 240 471l43-43 197 198 197-197 43 43-240 239Z" />
+            </svg>
+          </div>
+
+          <div class="hero-main">
+            <h1 class="hero-main-title">Matthis Lesur</h1>
+            <p class="hero-main-description">Etudiant MSC</p>
+          </div>
+
+          <div class="hero-second">
+            <p class="hero-second-subheading">Tistech</p>
+            <p class="hero-second-subheading">Portfolio</p>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="first-move section-margin"></div>
+
+      <section class="first-section section left">
+        <div class="section-intro-wrapper left circle blue">
+          <span class="section-number">01</span>
+          <h1 class="section-title">A propos</h1>
+        </div>
+        <div class="section-detail-wrapper first left circle blue">
+          <h3 class="section-heading">Mes études</h3>
+          <p class="section-text">Je suis actuellement étudiant<br>en 3eme année à Epitech Nantes.<br>Durant ma
+            scolarité
+            j'ai <br>pu apprendre le C et le C++<br>avec des projets allant de 1 jour à 2 <br>mois. Sur mon temps extra
+            scolaire
+            j'ai <br>pratiqué divers langages<br>essentiellement<br>orientés web. Vous pouvez trouver<br>certains de mes
+            projets<br><a href="https://github.com/tistech0" target="blank">ici sur mon github.</a></p>
+        </div>
+        <div class="section-detail-wrapper second left circle blue">
+          <h3 class="section-heading">Mes objectifs</h3>
+          <p class="section-text">Le développement fullstack<br>nécessite la maîtrise des compétences
+            <br>en développement front-end et back-end,<br>ce qui permet de travailler sur<br>l'ensemble du cycle de
+            développement<br>d'un projet. La polyvalence d'un<br>développeur fullstack le rend<br>flexible en matière de
+            recrutement.<br>Le développement fullstack peut<br>être très gratifiant car il permet<br>de voir directement
+            l'impact<br>de son travail sur l'expérience<br>utilisateur et les résultats<br>de l'entreprise.
+          </p>
+        </div>
+      </section>
+
+      <div class="second-move section-margin"></div>
+
+      <section class="second-section section rigth">
+        <div class="section-intro-wrapper right circle rigth green">
+          <span class="section-number">02</span>
+          <h1 class="section-title">Mes competences</h1>
+        </div>
+        <div class="section-detail-wrapper first right circle green">
+          <h3 class="section-heading">Langage</h3>
+          <div class="bar intermediate" data-skill="JS / TS"></div>
+          <div class="bar back basic" data-skill="PHP"></div>
+          <div class="bar back advanced" data-skill="C++"></div>
+          <div class="bar front advanced" data-skill="HTML / CSS"></div>
+        </div>
+        <div class="section-detail-wrapper second right circle green">
+          <h3 class="section-heading">FrameWorks / Librairie</h3>
+          <div class="bar back basic" data-skill="Node/Nest"></div>
+          <div class="bar middle" data-skill="Angular"></div>
+          <div class="bar front basic" data-skill="Three.js"></div>
+        </div>
+        <div class="section-detail-wrapper third right circle green">
+          <h3 class="section-heading">CMS</h3>
+          <div class="bar advanced" data-skill="Wordpress"></div>
+          <div class="bar basic" data-skill="Drupal"></div>
+        </div>
+      </section>
+
+      <div class="third-move section-margin"></div>
+
+      <a id="top-section"></a>
+      <section class="third-section section left" id="#top-section">
+        <div class="section-intro-wrapper left circle orange">
+          <span class="section-number">03</span>
+          <h1 class="section-title">Mes Projets</h1>
+        </div>
+        <div class="section-detail-wrapper first left circle orange">
+          <p class="section-text">Dans cette section, vous<br>pourrez découvrir les projets<br>que j'ai réalisé durant
+            mon temps<br>libre ou en cours. Pour accéder<br>à chacun d'entre eux, il vous<br>suffit de cliquer sur voir
+            plus<br>ou de vous rendre<br><a href="https://github.com/tistech0" target="blank">sur mon github ici.</a>
+          </p>
+        </div>
+        <div class="section-detail-wrapper second left circle orange mobile">
+          <p class="section-text">Les projet sont uniquement<br>disponible sur navigateur web<br>depuis un ordinateur
+          </p>
+        </div>
+        <a href="#top-section">
+          <div class="section-detail-wrapper second left circle-button orange project-button">
+            <p class="text-button">Voir plus</p>
+          </div>
+        </a>
+      </section>
+
+      <section class="third-section section left hide">
+        <div class="section-detail-wrapper first left circle-button orange back-button">
+          <p class="text-button back-button">Projet Precedent</p>
+        </div>
+        <div class="section-detail-wrapper first right circle-button orange next-button">
+          <p class="text-button next-button">Projet suivant</p>
+        </div>
+        <div class="center circle-button orange return-button">
+          <p class="text-button return-button">Retour</p>
+        </div>
+        <div class="button-projet"></div>
+        <div id="fullpage" onclick="this.style.display='none';"></div>
+      </section>
+
+      <div class="four-move section-margin"></div>
+
+      <section class="four-section section rigth">
+        <div class="section-intro-wrapper right circle blue">
+          <span class="section-number">04</span>
+          <h1 class="section-title">Contact</h1>
+        </div>
+        <div class="section-detail-wrapper first right circle blue">
+          <h3 class="section-heading">Pour me joindre</h3>
+          <p class="section-text">
+            Mail: contact@matthislesur.com<br>
+            Likendin: matthis lesur<br>
+          </p>
+        </div>
+        <div class="section-detail-wrapper second right circle blue">
+          <h3 class="section-heading">Pour voir mes projets</h3>
+          <p class="section-text">
+            Github: tistech0
+          </p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer-text">Matthis Lesur Etudiant en MSC</p>
+        <p class="footer-text">Numero: 07 82 78 16 15</p>
+        <p class="footer-text">Email: contact@matthislesur.com</p>
+      </footer>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
