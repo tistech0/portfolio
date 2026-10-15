@@ -17,11 +17,11 @@ export default [
     {
         name: "projet1",
         type: "imageTexture",
-        path: "/textures/my-portfolio.png",
+        path: "/textures/projets/my-portfolio.jpg",
     },
     {
         name: "projet2",
         type: "imageTexture",
-        path: "/textures/pet.png",
+        path: "/textures/projets/pet.jpg",
     },
 ];
